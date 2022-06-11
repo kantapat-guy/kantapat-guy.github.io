@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 64px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img {
+    padding-left: 24px;
+    height: 50px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: rgb(57, 57, 57);
+}
+
+header h2 {
+    font-size: 24px;
+    color: rgba(148, 146, 146, 0.868);
+    padding: 0px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-right: 24px;
+    align-items: center;
+}
+
+ul li {
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+}
+
+/* Banner */
+
+section {
+    display: flex;
+    align-items: center;
+    background-color: rgb(185, 185, 185);
+}
+
+section .image {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+section img {
+    width: 100%;
+}
+
+section .learn {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.learn h1 {
+    font-size: 32px;
+}
+
+.learn p {
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+.learn h2 {
+    border: 1px solid rgb(83, 83, 83);
+    background-color: rgb(83, 83, 83);
+    padding: 8px;
+    color: white;
+    font-size: 16px;
+    width: 220px;
+    text-align: center;
+    transition: background-color .4s linear 100ms;
+}
+
+.learn h2:hover {
+    background-color: rgb(193, 195, 193);
+}
+
+.learn a {
+    text-decoration: none;
+}
+
+/* Main Section 1 */
+
+main {
+    display: flex;
+    height: 680px;
+    padding: 32px 0px;
+}
+
+main .main1 {
+    padding-left:24px;
+    padding-right:24px;
+    width: 60%;
+}
+
+main .main1 h3 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    font-size: 30px;
+}
+
+main .main1 p {
+    line-height: 20px;
+}
+
+main .main1 h6 {
+    padding-top: 24px;
+}
+
+.main1 img {
+    width: 100%;
+    height: auto;
+}
+
+.remain {
+    width: 40%;
+}
+
+ .remain .main2 img {
+    height: auto;
+    width: 35%;
+ }
+
+ main .remain .main2 {
+    border: 1px solid rgb(149, 149, 149);
+    margin-bottom: 2px;
+    display: flex;
+    padding: 16px;
+    transition: background-color 0.2s linear;
+ }
+
+ .remain .main2:hover {
+    background-color: rgb(169, 168, 168);
+ }
+
+ .remain .main2 .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+ }
+
+ .remain .main2 .caption #h2 {
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ .remain .main2 .caption #minicaption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+ }
+
+ .remain .main2 .caption a {
+    text-decoration: none;
+    color: rgb(0, 183, 255);
+ }
+
+ /* Article course */
+ 
+ article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 185, 185);
+    padding: 32px 72px;
+    height: 100%;
+ }
+
+ article h1 {
+    padding-bottom: 32px;
+    font-size: 40px;
+ }
+
+ article .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+ }
+
+article .content .subContent img {
+    height: auto;
+    width: 350px;
+}
+
+article .content .subContent {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    padding-right: 32px;
+}
+
+article .content .subContent .info {
+    background-color: white;
+    padding: 16px;
+    height: 130px;
+}
+
+article .content .subContent h4 {
+    padding-bottom: 16px;
+    font-size: 24px;
+}
+
+article .content .subContent h5 {
+    font-size: 18px;
+    padding-bottom: 8px;
+    font-weight: 300;
+    color: rgb(91, 91, 91);
+}
+
+article .content .subContent p {
+    font-weight: 300;
+    color: rgb(91, 91, 91);
+}
+
+/* Article 2 */
+
+#thesis {
+    text-align: center;
+    padding-top: 32px;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    padding: 32px 0px;
+}
+
+nav .main1 {
+    padding-left:24px;
+    padding-right:24px;
+    width: 60%;
+}
+
+nav .main1 h3 {
+    padding-top: 24px;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+
+nav .main1 p {
+    line-height: 20px;
+}
+
+nav .main1 h6 {
+    padding-top: 24px;
+}
+
+nav .main1 video {
+    width: 100%;
+    height: auto;
+}
+
+nav .remain {
+    width: 40%;
+}
+
+nav .remain .main img {
+    height: auto;
+    width: 35%;
+ }
+
+nav .remain .main2 {
+    margin-bottom: 2px;
+    display: flex;
+    padding: 16px;
+    transition: background-color 0.2s linear;
+ }
+
+ nav .remain .main2:hover {
+    background-color: rgb(169, 168, 168);
+ }
+
+ nav .remain .main2 .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+ }
+
+ nav .remain .main2 .caption #h2 {
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ nav .remain .main2 .caption #minicaption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+ }
+
+/* Footer */
+
+footer {
+    border-top: 1px solid rgba(149, 149, 149, 0.296);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    height: 75px;
+}
+
+footer .term {
+    display: flex;
+    flex-direction: row;
+}
+
+.term p {
+    padding-left: 18px;
+}
+
+.term a {
+    text-decoration: none;
+}

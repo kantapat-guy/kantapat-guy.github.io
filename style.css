@@ -19,6 +19,10 @@ header .logo {
     align-items: center;
 }
 
+header .mlogo {
+    display: none;
+}
+
 header .logo img {
     padding-left: 24px;
     height: 50px;
@@ -52,6 +56,41 @@ ul a {
     text-decoration: none;
     color: rgb(70, 69, 69);
 }
+
+@media only screen and (max-width: 414px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .logo img {
+        width: 30px;
+    }
+    header h1, h2 {
+        display: none;
+    }
+    header ul {
+        display: none;
+    }
+    header .mlogo {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 15px;
+    }
+    header .mlogo a {
+        width: 30px;
+    }
+}
+
+
 
 /* Banner */
 
@@ -102,6 +141,33 @@ section .learn {
 
 .learn a {
     text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 414px) {
+    section {
+        flex-direction: column;
+        justify-content: center;
+    }
+    section .learn {
+        align-items: center;
+        margin: 32px 16px;
+    }
+    section .image {
+        width: 100%;
+        margin: 0;
+    }
+    section img {
+        width: 414px;
+    }
+    .learn h1, p {
+        width: 350px;
+    }
+    .learn h2 {
+        display: block;
+        font-size: 24px;
+        width: 280px;
+    }
 }
 
 /* Main Section 1 */
@@ -179,6 +245,37 @@ main .main1 h6 {
     text-decoration: none;
     color: rgb(0, 183, 255);
  }
+ .remain .main2 .img-m1 {
+    display: none;
+ }
+
+ @media only screen and (max-width: 414px) {
+    main {
+        height: auto;
+        padding-bottom: 0;
+    }
+    main .main1 {
+        display: none;
+    }
+    .remain {
+        width: 100%;
+        height: auto;
+    }
+    .remain .main2 img {
+        display: none;
+     }
+    .remain .main2 .img-m1 {
+        display: block;
+        width: auto;
+    }
+    main .remain .main2 {
+        display: flex;
+        flex-direction: column;
+        border: 0px solid transparent;
+        margin-bottom: 32px;
+    }
+ }
+
 
  /* Article course */
  
@@ -239,6 +336,35 @@ article .content .subContent p {
     font-weight: 300;
     color: rgb(91, 91, 91);
 }
+
+@media only screen and (max-width: 414px) {
+    article {
+        background-color: white;
+        border-top: 1px solid rgba(149, 149, 149, 0.414);
+        border-bottom: 1px solid rgba(149, 149, 149, 0.418);
+    }
+    article .content .subContent {
+        padding-left: 16px;
+        padding-bottom: 8px;
+    }
+    article .content .subContent img, h5 {
+        display: none;
+    }
+    article .content .subContent p {
+        display: none;
+    }
+    article .content .subContent h4{
+        padding: 0;
+    }
+    article .content .subContent .info {
+        background-color:  rgb(169, 168, 168);
+        height: auto;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+    }
+}
+
 
 /* Article 2 */
 
@@ -315,6 +441,26 @@ nav .remain .main2 {
     padding-bottom: 8px;
  }
 
+ @media only screen and (max-width: 414px) {
+    nav {
+        padding-top: 16px;
+        padding-bottom: 24px ;
+    }
+    nav .remain {
+        display: none;
+    }
+    nav p,h3 {
+        display: none;
+    }
+    nav .main1 {
+        padding: 0px;
+    }
+    nav .main1 video {
+        width: 414px;
+    }
+ }
+
+
 /* Footer */
 
 footer {
@@ -337,4 +483,16 @@ footer .term {
 
 .term a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 414px) {
+    footer {
+        padding: 0;
+    }
+    footer .term {
+        display: none;
+    }
+    footer p {
+        padding: 16px;
+    }
 }

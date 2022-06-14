@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin:0;
-    font-family: 'Avenir Next LT Pro', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 body {
@@ -206,7 +206,7 @@ main .main1 h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(216, 216, 216);
     padding-top: 32px;
     height: auto;
  }
@@ -243,7 +243,7 @@ article .content #c1,#c2,#c4,#c5 {
 article .content .subContent .info {
     background-color: white;
     padding: 24px;
-    height: 155px;
+    height: 160px;
     transition: background-color 0.2s linear;
  }
 
@@ -253,7 +253,7 @@ article .content .subContent .info {
 
 article .content .subContent h4 {
     padding-bottom: 16px;
-    font-size: 30px;
+    font-size: 28px;
     color: rgb(74, 74, 74);
 }
 
@@ -265,7 +265,7 @@ article .content .subContent h5 {
 }
 
 article .content .subContent p {
-    font-size: 20px;
+    font-size: 19px;
     color: rgb(129, 129, 129);
 }
 

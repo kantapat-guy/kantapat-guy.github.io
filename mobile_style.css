@@ -1,0 +1,174 @@
+/* Header */
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .logo img {
+        width: 30px;
+    }
+    header h1, h2 {
+        display: none;
+    }
+    header ul {
+        display: none;
+    }
+    header .mlogo {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 40px;
+    }
+    header .mlogo a {
+        width: 30px;
+    }
+}
+
+
+/* Banner */
+@media only screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+    section .learn {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 32px 16px;
+    }
+    section .image {
+        width: 100%;
+        margin: 0;
+    }
+    .learn h2 {
+        display: block;
+        font-size: 24px;
+    }
+    .learn p {
+        text-align: center;
+    }
+}
+
+/* Main Section 1 */
+@media only screen and (max-width: 768px) {
+    main {
+        height: auto;
+        padding: 0;
+    }
+    main .main1 {
+        display: none;
+    }
+    .remain {
+        width: 100%;
+        height: auto;
+    }
+    .remain .main2 img {
+        display: none;
+     }
+    .remain .main2 .img-m1 {
+        display: block;
+        width: auto;
+    }
+    main .remain .main2 {
+        display: flex;
+        flex-direction: column;
+        border: 0px solid transparent;
+        padding: 16px 16px 0px 16px;
+        margin-bottom: 32px;
+        line-height: 30px;
+    }
+    .remain .main2 .caption #h2 {
+        padding-top: 20px;
+    }
+    .remain .main2 .caption #minicaption {
+        font-size: 18px;
+    }
+ }
+
+
+  /* Article course */
+
+  @media only screen and (max-width: 1260px) {
+    article .content #c1,#c2,#c3,#c4,#c5,#c6 {
+        padding-right: 32px;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    article {
+        background-color: white;
+        border-top: 1px solid rgb(239, 240, 240);
+        border-bottom: 1px solid rgb(239, 240, 240);
+    }
+    article .content {
+        padding: 16px 16px 32px 16px;
+    }
+    article .content .subContent {
+        padding-bottom: 8px;
+        width: 100%;
+    }
+    article .content .subContent img, h5 {
+        display: none;
+    }
+    article .content .subContent p {
+        display: none;
+    }
+    article .content .subContent h4{
+        font-size: 20px;
+        padding: 0;
+    }
+    article .content .subContent .info {
+        background-color:  rgb(216, 216, 216);
+        width: 100%;
+        height: auto;
+        padding: 16px 0px 24px 16px;
+    }
+    article .content #c1,#c2,#c3,#c4,#c5,#c6 {
+        padding-right: 16px;
+        width: 100%;
+    }
+}
+
+
+/* Article 2 */
+@media only screen and (max-width: 768px) {
+    nav {
+        justify-content: center;
+        padding-top: 16px;
+        padding-bottom: 24px ;
+    }
+    nav .remain {
+        display: none;
+    }
+    nav p,h3 {
+        display: none;
+    }
+    nav .main1 {
+        padding: 0px;
+        width: 100%;
+    }
+ }
+
+
+ /* Footer */
+ @media only screen and (max-width: 768px) {
+    footer {
+        padding: 0;
+    }
+    footer .term {
+        display: none;
+    }
+    footer p {
+        padding: 16px;
+    }
+}
